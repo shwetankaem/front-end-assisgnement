@@ -1,9 +1,9 @@
 # front-end-assisgnement
 This repo is the front-end assignment for the practice.
 
-[Instructions]()
+[Instructions](https://github.com/frontenddevtrainer/front-end-assisgnement/blob/main/exercise-one.md)
 
-[Base code]()
+base code is already in repo. `index.html` at the root is landing page of the library you will create.
 
 
 ## Grading criteria:
