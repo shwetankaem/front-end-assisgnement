@@ -1,0 +1,67 @@
+:root{ 
+   --black:#000000; 
+   --white:#ffffff;
+   --grey:#ccc;
+   --maroon:#97291e;
+   --bg-color:#f2efe5;
+   --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.feedbackForm{
+      display:grid;
+    }
+
+ h2{
+    text-align: center;
+    margin-bottom: 30px;
+ }
+
+ form{
+    padding: 20px;
+    background-color: var(--bg-color);
+    box-shadow:  0px 0px 5px var(--black);
+    font-family: var(--font-family);
+ }
+
+ form > div{
+    display: grid;
+    grid-template-columns: 70px auto;
+    gap: 10px;
+    margin-bottom: 30px;
+ }
+
+ form > input[type=submit]{
+    display: block;
+    margin: auto;
+    background-color:var(--maroon);
+    border: none;
+    border-radius: 10px;
+    color: var(--white);
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+ }
+
+ input[type=text], input[type=email], textarea{
+    width: 100%;
+    padding: 10px 10px;
+    margin: -10px 0;
+    border: 1px solid var(--black);
+    box-sizing: border-box;
+  }
+
+  textarea{
+   height: 100px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .feedbackForm {
+        grid-template-columns: auto 600px;
+    }
+
+    form > input[type=submit] {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+  }
